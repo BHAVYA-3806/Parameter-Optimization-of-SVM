@@ -54,6 +54,16 @@ Shows iteration-wise accuracy for the best SVM sample.
 
 ![Convergence Graph](convergence_graph.jpg)
 
+## 🗂 Methodology
+- Generate a synthetic dataset using make_classification
+- Perform preprocessing (scaling and class balance checks)
+- Split the data into 10 different train/test sets (70/30)
+- Optimize SVM with:
+   - Linear kernel: Varying C values
+   - RBF kernel: Varying C and gamma
+   - Polynomial kernel: Varying C and degree
+- Track convergence history (accuracy vs iterations)
+- Store and visualize results
 
 ## 💻 How to Run
 
