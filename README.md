@@ -48,11 +48,12 @@ Used `Breast Cancer Dataset` from `sklearn.datasets` (you may replace with a UCI
 | S10    | 0.994          | linear, 2.154, 0.022                         |
 
 
-## 📈 Convergence Graph
+## 📈 Convergence Graph (Figure 1)
 
 Shows iteration-wise accuracy for the best SVM sample.
 
-![Convergence Graph of Best SVM](/content/convergence_graph.png)
+![Convergence Graph](convergence_graph.jpg)
+
 
 ## 💻 How to Run
 
