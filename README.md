@@ -31,20 +31,22 @@ Used `Breast Cancer Dataset` from `sklearn.datasets` (you may replace with a UCI
 - **Table 1:** Comparative performance of Optimized-SVM with different samples
 - **Figure 1:** Convergence graph showing how accuracy improved with iterations
 
-## 📈 Results Table (Table 1):
 
-  | Sample |  Best Accuracy  |      Parameters         |
---|--------|-----------------|-------------------------|
-0 |    S1  |      0.982      |  linear, 0.464, 0.005   |
-1 |    S2  |      0.971      |     rbf, 0.464, 0.022   |
-2 |    S3  |      0.994      |  linear, 0.1,   0.022   |
-3 |    S4  |      0.988      |  linear, 2.154, 46.416  |
-4 |    S5  |      0.994      |     rbf, 10.0,  0.005   |
-5 |    S6  |      0.988      |  linear, 0.022, 0.001   |
-6 |    S7  |      0.982      |  linear, 2.154, 0.001   |
-7 |    S8  |      0.982      |  linear, 0.464, 0.1     |
-8 |    S9  |      0.988      |    poly, 215.443,0.022  |
-9 |   S10  |      0.994      |  linear, 2.154, 0.022   |
+## 📊 Results Table (Table 1):
+
+| Sample | Best Accuracy | Best SVM Parameters (Kernel, C, Gamma)       |
+|--------|----------------|----------------------------------------------|
+| S1     | 0.982          | linear, 0.464, 0.005                         |
+| S2     | 0.971          | rbf, 0.464, 0.022                            |
+| S3     | 0.994          | linear, 0.1, 0.022                           |
+| S4     | 0.988          | linear, 2.154, 46.416                        |
+| S5     | 0.994          | rbf, 10.0, 0.005                             |
+| S6     | 0.988          | linear, 0.022, 0.001                         |
+| S7     | 0.982          | linear, 2.154, 0.001                         |
+| S8     | 0.982          | linear, 0.464, 0.1                           |
+| S9     | 0.988          | poly, 215.443, 0.022                         |
+| S10    | 0.994          | linear, 2.154, 0.022                         |
+
 
 ## 📈 Convergence Graph
 
